@@ -20,8 +20,6 @@
             android:id="@+id/thumbnail"
             android:layout_width="100dp"
             android:layout_height="100dp" />
-            <!-- TODO: remove
-            android:background="@color/photo_placeholder" /-->
 
         <TextView
             android:id="@+id/article_title"
@@ -34,8 +32,6 @@
             android:paddingBottom="4dp"
             android:ellipsize="end"
             android:maxLines="4" />
-            <!-- TODO: remove
-            android:textColor="@color/ltgray" -->
 
     <TextView
         android:id="@+id/article_subtitle"
