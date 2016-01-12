@@ -20,8 +20,10 @@
 
                 <ImageView
                     android:id="@+id/photo"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:layout_collapseMode="parallax"
+                    android:scaleType="centerCrop"
                     />
 
                 <View
